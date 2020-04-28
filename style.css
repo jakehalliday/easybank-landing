@@ -1,0 +1,135 @@
+body,
+html {
+  font-family: "Public Sans", sans-serif;
+  width: 100%;
+  margin: 0;
+  color: #9698a6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2d314d;
+}
+
+.btn-success {
+  background: #28bd50;
+  background-image: -webkit-gradient(linear, left top, right top, from(#28bd50), to(#1e62d0));
+  background-image: linear-gradient(to right, #28bd50, #1e62d0);
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 25px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  line-height: 0.8rem;
+}
+
+.bg-intro {
+  background-image: url(images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 50px -250px;
+  z-index: -1;
+}
+
+.image-mockups {
+  position: relative;
+  left: 13vw;
+  bottom: 15vh;
+}
+
+.row-intro {
+  height: 80vh;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.col-md-5 {
+  padding-top: 15%;
+}
+
+.why {
+  padding-bottom: 5rem;
+}
+
+.card {
+  border: none;
+}
+
+#feature-row {
+  padding-bottom: 100px;
+}
+
+.icon {
+  padding-bottom: 20px;
+}
+
+.article-section-title {
+  padding-bottom: 50px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+footer {
+  background: #2d314d;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+}
+
+.icons {
+  display: inline-block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+small {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    text-align: center;
+  }
+  .row-intro {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .bg-intro {
+    margin-bottom: 20px;
+    background-image: url(images/bg-intro-mobile.svg);
+    background-size: cover;
+    background-position-y: 0;
+    background-position-x: -20px;
+    z-index: -2;
+  }
+  .card-img-top {
+    height: initial;
+  }
+  .image-mockups {
+    position: relative;
+    left: 3.5vw;
+    bottom: 40vw;
+    width: 90vw;
+    vertical-align: center;
+  }
+  .col-md-5 {
+    padding-top: initial;
+  }
+  .card {
+    margin-bottom: 50px;
+  }
+  form {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
